@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/sytle.css">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/all.css">
+    <script src="./js/jsScript.js"></script>
+    <title>Dashboard</title>
+</head>
+<body>
+    <div class="mainDivDashBoard">
+        <div class="divLeft">
+            <div class="divUserMenu">
+                <div class="divUserInfo">
+                    <div class="userImage">
+                        <img src="imgs/userTeste.jpg" alt="foto do usuario"/>
+                    </div>               
+                    <p>Fulano Cicrano</p>
+                    <div class="userStars" id="userStar">
+                        <i class="fas fa-star fa-2x"></i>
+                        <i class="fas fa-star fa-2x"></i>
+                        <i class="fas fa-star fa-2x"></i>
+                        <i class="fas fa-star-half-alt fa-2x"></i>
+                        <i class="far fa-star fa-2x"></i>
+                    </div>
+                </div>
+                <div class="dashboardUserMenu">
+                    <div class="dashboardUserMenuBtn">
+                        <button onClick={handleClikeMyBoard}>Meu Board</button>
+                        <button onClick={handleClikeCreateProjects}>Criar Projeto</button>
+                        <button onClick={handleClikeBprojects}>Buscar Projetos</button>
+                        <button>Configurações</button>
+                        <button onClick="window.location.href = '../../indext.html'">Sair</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="divRight">
+            <div class="divProjectsInfo">
+                <div class="divProjectsInfoParticipate">
+                    <p>Projetos Participados</p>
+                    <p>10</p>
+                </div>
+                <div class="divProjectsInfoPublic">
+                    <p>Projetos Publicados</p>
+                    <p>10523</p>
+                </div>
+            </div>
+            <div class="divMyProjects">
+                <h2>Meus Projetos</h2>
+                <div className='myProjectsGrid'>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
