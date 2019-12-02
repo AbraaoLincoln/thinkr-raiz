@@ -75,6 +75,10 @@
     /* color: #31E981; */
 }
 
+.text-mainContent h1{
+    text-align: center;
+}
+
 .divConceptModel{
     display: flex;
     flex-direction: column;
@@ -91,6 +95,7 @@
 
 .divConceptModel h2{
     margin-bottom: 3%;
+    text-align: center;
 }
 
 .divPaiSteps{
@@ -121,6 +126,10 @@
     /* transform: scale(0); */
     transition: transform 1s;
     /* border: solid 1px #11151C; */
+}
+
+.steps p{
+    text-align: center;
 }
 
 .footerHomepage{

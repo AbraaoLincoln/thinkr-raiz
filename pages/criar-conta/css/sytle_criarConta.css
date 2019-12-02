@@ -13,7 +13,7 @@
     height: 90%;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: flex-start;
     box-shadow: 10px 10px 25px;
     border-radius: 20px;
@@ -34,6 +34,7 @@
 .divPartExpt{
     /* height: 10%; */
     /* border-bottom: solid 1px #11151C; */
+    margin-top: 2%;
 }
 
 .divPart{

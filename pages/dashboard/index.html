@@ -16,9 +16,9 @@
             <div class="divUserMenu">
                 <div class="divUserInfo">
                     <div class="userImage">
-                        <img src="imgs/userTeste.jpg" alt="foto do usuario"/>
+                        <img src="imgs/user2.png" alt="foto do usuario"/>
                     </div>               
-                    <p>Fulano Cicrano</p>
+                    <p>Nome Usuário</p>
                     <div class="userStars" id="userStar">
                         <i class="fas fa-star fa-2x"></i>
                         <i class="fas fa-star fa-2x"></i>
@@ -29,9 +29,9 @@
                 </div>
                 <div class="dashboardUserMenu">
                     <div class="dashboardUserMenuBtn">
-                        <button onClick={handleClikeMyBoard}>Meu Board</button>
-                        <button onClick={handleClikeCreateProjects}>Criar Projeto</button>
-                        <button onClick={handleClikeBprojects}>Buscar Projetos</button>
+                        <button onclick="window.location.href='../meu-board/index.html'"">Meu Board</button>
+                        <button onclick="window.location.href='../criar-projeto/index.html'">Criar Projeto</button>
+                        <button onclick="window.location.href='../buscar-projetos/index.html'">Buscar Projetos</button>
                         <button>Configurações</button>
                         <button onClick="window.location.href = '../../indext.html'">Sair</button>
                     </div>
@@ -51,8 +51,7 @@
             </div>
             <div class="divMyProjects">
                 <h2>Meus Projetos</h2>
-                <div className='myProjectsGrid'>
-
+                <div class='myProjectsGrid'>
                 </div>
             </div>
         </div>

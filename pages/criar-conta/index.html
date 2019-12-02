@@ -11,7 +11,7 @@
 </head>
 <body>
     <div class="joinPage">
-        <form action="" method="post" name="formJoin" class="formJoin">
+        <div action="" method="post" name="formJoin" class="formJoin">
             <div class="divPart divPartExpt">
                 <label htmlFor="nomeUsuario">Nome de Usuario:</label>
                 <input type="text" class="" placeholder="nome"/>
@@ -19,26 +19,24 @@
             <div class="divPart">
                 <label htmlFor="nome">Nome:</label>
                 <input type="text" class="" placeholder="nome"/>
-                <label htmlFor="nome">Sobrenome:</label>
-                <input type="text" class="" placeholder="sobrenome"/>
             </div>
             <div class="divPart">
                 <label htmlFor="nome">E-mail:</label>
                 <input type="text" class="" placeholder="email"/>
+            </div>
+            <div class="divPart">
                 <label htmlFor="nome">Confirmar email:</label>
                 <input type="text" class="" placeholder="confirmar email"/>
             </div>
             <div class="divPart">
                 <label htmlFor="nome">Senha:</label>
                 <input type="text" class="" placeholder="senha"/>
-                <label htmlFor="">Confirma senha:</label>
-                <input type="text" class="" placeholder="senha novamente"/>
             </div>
-            <button class="btnCadastrar" >Criar Conta</button>
-        </form>
-        <div class="divHomeBtn" onClick={goHome}>
-            <i class="fas fa-home"></i>
+            <button class="btnCadastrar" onclick="window.location.href='../login/index.html'">Criar Conta</button>
         </div>
+        <!-- <div class="divHomeBtn" onClick={goHome}>
+            <i class="fas fa-home"></i>
+        </div> -->
     </div>
 </body>
 </html>

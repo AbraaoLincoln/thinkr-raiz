@@ -128,6 +128,7 @@
 .form p{
 	text-decoration: underline;
 	margin-top: 7%;
+	text-align: center;
 }
 
 .form p:hover{

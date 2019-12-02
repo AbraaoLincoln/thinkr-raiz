@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/sytle.css">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/all.css">
+    <script src="./js/jsScript.js"></script>
+    <title>Criar Projeto</title>
+</head>
+<body>
+    <div>
+        <header class="headerProjects">
+            <h1 onclick="window.location.href='../../indext.html'">ThinkR</h1>
+            <p onclick="window.location.href='../dashboard/index.html'">Nome Usuário</p>
+        </header>
+        <div class="mainDivCreateProject">
+            <div class="mainPage">
+                <input type="text" placeholder="Titulo" class="inputTitulo"/>
+                <p>Por: Nome Usuário</p>
+                <textarea type="text" placeholder="Escreva aqui" class="inputParagraph" id="tA"  onkeyup="checkScrollBar()"></textarea>
+            </div>
+            <div class="divListRequire">
+                <h1>Colaboradores</h1>
+                <div class="divCarCreate">
+                    <!-- <button id="btnPlus" onClick={toggleButton}><i class="fas fa-plus"></i></button> -->
+                    <div class="formCreate">
+                        <input type="text" id="espName" placeholder="nome da especialidade"/>
+                        <input type="number" id="espQtd" placeholder="quantidade"/>
+                        <button onclick="addColaborador()">Adicionar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

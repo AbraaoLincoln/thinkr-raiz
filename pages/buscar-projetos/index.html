@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/sytle.css">
+    <link rel="stylesheet" href="../../css/reset.css">
+    <link rel="stylesheet" href="../../css/all.css">
+    <script src="./js/jsScript.js"></script>
+    <title>Criar Conta</title>
+</head>
+<body>
+    <div class="divMainProjetcs" onScroll={loadMoreProjects}>
+        <header class="headerProjects">
+            <h1 onclick="window.location.href='../../indext.html'">ThinkR</h1>
+            <div class="divSearch">
+                <input type="search" placeholder="nome do projeto"/>
+                <i class="fas fa-search"></i>
+            </div>
+            <p onclick="window.location.href='../dashboard/index.html'" id="useNameProject">Nome Usuário</p>
+        </header>
+        <div class="mainProjetcs">
+            <div class="displayProjects" id="displayPro1">
+                <div class="projectSort" id="projectSort1000" onclick="handleClick()">
+                    <div class="projectSortTitle" id="projectSortTitle1000">
+                        <h3>Titulo do Projeto</h3>
+                        <div class="divFeedback">
+                            <i class="fas fa-thumbs-up  iconLike"></i>
+                            <i class="fas fa-thumbs-down iconDeslike"></i>
+                        </div>
+                    </div>
+                    <div class="projectSortDescription" id="projectSortDescription1000">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur sint, in ipsum magni molestias perferendis et voluptates harum odio, tempora maxime quod minus ad incidunt cum ullam vero modi molestiae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque ducimus explicabo ipsa aut maiores asperiores, alias illum itaque sint recusandae voluptate ipsam? Quisquam sit iusto itaque eos nesciunt dolore dignissimos? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae accusantium quisquam architecto nesciunt impedit. Iste minus aperiam aliquam natus beatae ipsum quia, nesciunt explicabo expedita suscipit accusantium omnis maxime laudantium!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
